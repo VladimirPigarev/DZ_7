@@ -25,7 +25,7 @@ if(i < matrix.GetLength(0) && j < matrix.GetLength(1))
 }
 else 
 {
-    WriteLine($"i={i} j={j}-> такой позиции в массиве нет");
+    WriteLine($"строка {i} столбец {j} -> такой позиции в массиве нет");
 }
 
 void FillMatrix(int[,] Array)
